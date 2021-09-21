@@ -1,0 +1,37 @@
+.toolbar {
+    top: 80px;
+    right: 100px;
+    position: absolute;
+    width: 100px;
+    height: 600px;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    background: #faebd7;
+    box-shadow: 4px 4px 5px #808080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px 0;
+    width: 70px;
+    height: 40px;
+    background: #fdfdfd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineBtn {
+    width: 40px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.78);
+}
+
+.squareBtn {
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.78);
+
+}
